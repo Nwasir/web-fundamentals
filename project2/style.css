@@ -1,0 +1,32 @@
+h1 {
+    color: teal;
+}
+.title {
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: red;
+}
+
+#article-title {
+    text-transform: lowercase;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+/* * {
+    border: 2px solid red;
+    background-color: aquamarine;
+} */
+
+a[href*='florence'] {
+    color: lightgreen;
+}
+
+a:hover {
+    color: darkorange;
+}
+
+a:visited {
+    color: brown;
+}
